@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88da59c-15f4-4b20-ba94-1efbf3090fb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/List/IntegerLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Node/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/adt/DoubllyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/main.java" afterDir="false" />
+    <list default="true" id="c88da59c-15f4-4b20-ba94-1efbf3090fb4" name="Changes" comment="Create Interface with ,isEmpty,getSize, add, remove search method.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/list/List/IntegerLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/List/IntegerLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,10 +134,26 @@
       <workItem from="1707142756777" duration="1784000" />
       <workItem from="1707144793604" duration="14000" />
       <workItem from="1707238914821" duration="147000" />
+      <workItem from="1707299230858" duration="545000" />
+      <workItem from="1707303439316" duration="115000" />
+      <workItem from="1707303609703" duration="11000" />
     </task>
+    <task id="LOCAL-00001" summary="Create Interface with ,isEmpty,getSize, add, remove search method.">
+      <option name="closed" value="true" />
+      <created>1707299393509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707299393509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Interface with ,isEmpty,getSize, add, remove search method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Interface with ,isEmpty,getSize, add, remove search method." />
   </component>
 </project>

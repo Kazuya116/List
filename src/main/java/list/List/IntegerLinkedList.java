@@ -2,8 +2,6 @@ package list.List;
 
 import list.Node.Node;
 import list.adt.DoubllyLinkedList;
-import list.doublylinkedlist.adt.*;
-import list.doublylinkedlist.Node.*;
 
 public class IntegerLinkedList implements DoubllyLinkedList {
     private Node head;
