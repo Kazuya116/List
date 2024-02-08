@@ -1,4 +1,4 @@
-package Cicular;
+package Circular;
 import Doubly_Linked_List.Node.*;
 import Doubly_Linked_List.List.IntegerLinkedList;
 

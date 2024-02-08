@@ -1,4 +1,4 @@
-import Cicular.IntegerCicularList;
+import Circular.IntegerCicularList;
 
 public class Main {
     public static void main(String[] args) {
