@@ -1,12 +1,12 @@
-package list.List;
+package Doubly_Linked_List.List;
 
-import list.Node.Node;
-import list.adt.DoubllyLinkedList;
+import Doubly_Linked_List.Node.Node;
+import Doubly_Linked_List.adt.DoubllyLinkedList;
 
 public class IntegerLinkedList implements DoubllyLinkedList {
-    private Node head;
-    private int size;
-    private final Node tail;
+    public  Node head;
+    public int size;
+    public  Node tail;
 
     public IntegerLinkedList() {
         this.head = null;
@@ -23,8 +23,14 @@ public class IntegerLinkedList implements DoubllyLinkedList {
     }
 
     public void addFirst(int data) {
-        this.head = new Node(data, this.head, null);
-        size++;
+        Node newnode = new Node(data);
+        if(head == null){
+            tail = newnode ;
+        }else {
+            head.prevnode = newnode;
+            newnode.nextnode = head;
+        }
+        head = newnode;
     }
 
     public void add(int data) {
