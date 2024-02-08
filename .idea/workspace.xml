@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88da59c-15f4-4b20-ba94-1efbf3090fb4" name="Changes" comment="create the circular linked list using Doubly Linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cicular/IntegerCicularList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="c88da59c-15f4-4b20-ba94-1efbf3090fb4" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Circular/IntegerCicularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circular/IntegerCicularList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,7 +48,7 @@
     "Java Scratch.Solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rebasing master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Other stuff/Studies/Java/Intellij_Java/gla-bcsc0006-2024",
@@ -70,7 +70,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Doubly_Linked_List.main">
     <configuration name="Doubly_Linked_List.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Doubly_Linked_List.main" />
       <module name="List" />
@@ -155,7 +155,7 @@
       <workItem from="1707303439316" duration="115000" />
       <workItem from="1707303609703" duration="11000" />
       <workItem from="1707410537386" duration="834000" />
-      <workItem from="1707411393824" duration="2042000" />
+      <workItem from="1707411393824" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="Create Interface with ,isEmpty,getSize, add, remove search method.">
       <option name="closed" value="true" />
@@ -173,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707411871706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create the circular linked list using Doubly Linked list.">
+      <option name="closed" value="true" />
+      <created>1707413496790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707413496790</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updates">
+      <option name="closed" value="true" />
+      <created>1707413711770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707413711770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Interface with ,isEmpty,getSize, add, remove search method." />
     <MESSAGE value="create the circular linked list using Doubly Linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the circular linked list using Doubly Linked list" />
+    <MESSAGE value="create the circular linked list using Doubly Linked list." />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>

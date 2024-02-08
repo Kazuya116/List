@@ -1,4 +1,5 @@
 package Circular;
+
 import Doubly_Linked_List.Node.*;
 import Doubly_Linked_List.List.IntegerLinkedList;
 
@@ -50,8 +51,5 @@ public class IntegerCicularList extends IntegerLinkedList {
                     return current;
                 }
             }
-
-
-
 
 
