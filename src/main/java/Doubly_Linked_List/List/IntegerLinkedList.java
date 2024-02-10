@@ -3,30 +3,33 @@ package Doubly_Linked_List.List;
 import Doubly_Linked_List.Node.Node;
 import Doubly_Linked_List.adt.DoubllyLinkedList;
 
+
+
 public class IntegerLinkedList implements DoubllyLinkedList {
-    public  Node head;
-    public int size;
-    public  Node tail;
+    public Node head;
+    //    public int size;
+    public Node tail;
 
     public IntegerLinkedList() {
         this.head = null;
-        this.size = 0;
+//        this.size = 0;
         this.tail = null;
     }
 
     public boolean isEmpty() {
-        return size == 0;
+        return Node.size == 0;
     }
 
     public int getSize() {
-        return size;
+        return Node.size;
     }
 
     public void addFirst(int data) {
         Node newnode = new Node(data);
-        if(head == null){
-            tail = newnode ;
-        }else {
+        if (head == null) {
+            head = newnode;
+            tail = newnode;
+        } else {
             head.prevnode = newnode;
             newnode.nextnode = head;
         }
@@ -42,7 +45,7 @@ public class IntegerLinkedList implements DoubllyLinkedList {
             while (current.nextnode != null) current = current.nextnode;
             current.nextnode = newnode;
             newnode.prevnode = current;
-            size++;
+            data++;
         }
     }
 
@@ -53,7 +56,7 @@ public class IntegerLinkedList implements DoubllyLinkedList {
             this.head.prevnode = null;
         }
         if (currentNode != null) {
-            size--;
+            Node.size--;
             return currentNode.data;
         } else return Integer.MIN_VALUE;
     }
@@ -84,7 +87,7 @@ public class IntegerLinkedList implements DoubllyLinkedList {
         if (currentnode.nextnode != null) {
             currentnode.nextnode.prevnode = currentnode.prevnode;
         }
-        size--;
+        Node.size--;
         return currentnode.data;
 
     }
@@ -107,4 +110,16 @@ public class IntegerLinkedList implements DoubllyLinkedList {
 
     }
 
+    public void reverse() {
+        Node current = head;
+        Node previous = null;
+        while (current != null) {
+            Node next = current.nextnode;
+            current.nextnode = previous;
+            current.prevnode = next;
+            previous = current;
+            current = next;
+        }
+        head = previous;
+    }
 }
